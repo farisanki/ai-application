@@ -1,0 +1,22 @@
+Attention all you need.
+Attention mechanisms allow a model to focus on different parts of its input at different times. This is essential for modeling long-range dependencies in sequential data, such as text.
+There are two main types of attention mechanisms:
+•	Encoder-decoder attention: This type of attention is used in sequence transduction tasks, such as machine translation and text summarization. In encoder-decoder attention, the model learns to attend to different parts of the input sequence as it generates the output sequence.
+•	Self-attention: This type of attention is used in tasks where the model needs to learn relationships between different parts of the same sequence. For example, self-attention is used in language modeling and question answering tasks.
+The Transformer Architecture
+The Transformer architecture is a purely attention-based model. It consists of an encoder and a decoder, each of which is made up of a stack of self-attention layers.
+The encoder takes the input sequence and produces a sequence of hidden states. The decoder then takes the encoder's hidden states and generates the output sequence.
+At each step of the decoding process, the decoder attends to the encoder's hidden states. This allows the decoder to access information about all parts of the input sequence, regardless of their distance.
+Advantages of the Transformer Architecture
+The Transformer architecture has several advantages over traditional RNN- and CNN-based models: 
+•	More powerful: The Transformer architecture is able to model long-range dependencies in sequential data more effectively than RNNs and CNNs.
+•	More efficient: The Transformer architecture is more parallelizable than RNNs and CNNs, which means that it can be trained faster on large datasets.
+•	Easier to train: The Transformer architecture is easier to train than RNNs and CNNs, as it does not require any sequential processing.
+Important Things to Keep in Mind
+Here are some of the important things to keep in mind about the "Attention Is All You Need" paper:
+•	The Transformer architecture is a purely attention-based model. It does not use any recurrent or convolutional layers.
+•	The Transformer architecture is more powerful, efficient, and easier to train than traditional RNN- and CNN-based models.
+•	The Transformer architecture has achieved state-of-the-art results on a variety of NLP tasks, including machine translation, text summarization, and question answering.
+•	The Transformer architecture has also been successfully applied to other domains, such as computer vision and speech recognition.
+
+
